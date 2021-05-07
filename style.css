@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+tr > th {
+    width: 200px;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+#c3po {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#c3po > table {
+    width: 800px;
+}
+
+img {
+    width: 300px;
+    height: 600px;
+}
